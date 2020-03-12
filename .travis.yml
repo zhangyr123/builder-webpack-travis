@@ -1,0 +1,18 @@
+language: node_js
+
+sudo: false
+
+cache: 
+  apt: true
+  directories:
+      - node_mmodules
+  
+  node_js: stable
+
+  install: 
+      - cnpm install -D
+      - cd ./test/smoke/template
+      - cnpm install -D
+
+  scripts: 
+      - cnpm test
