@@ -1,4 +1,4 @@
-// 
+// 测试webpack.base.js
 const assert = require('assert')
 
 describe('webpack.base.js test case', () => {
