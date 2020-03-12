@@ -13,6 +13,7 @@ cache:
       - cnpm install -D
       - cd ./test/smoke/template
       - cnpm install -D
+      - cd ../../../
 
   scripts: 
       - cnpm test
