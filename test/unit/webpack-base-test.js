@@ -6,7 +6,7 @@ describe('webpack.base.js test case', () => {
 
     it('entry', () => {
         // 覆盖率
-        assert.equal(baseConfig.entry.index, 'E:/前端学习/webpack/webpack9/builder-webpack/test/smoke/template/src/index/index.js')
-        assert.equal(baseConfig.entry.search, 'E:/前端学习/webpack/webpack9/builder-webpack/test/smoke/template/src/search/index.js')
+        assert.equal(baseConfig.entry.index, '/home/travis/build/zhangyr123/builder-webpack-travis/test/smoke/template/src/index/index.js')
+        assert.equal(baseConfig.entry.search, '/home/travis/build/zhangyr123/builder-webpack-travis/test/smoke/template/src/search/index.js')
     })
 })
